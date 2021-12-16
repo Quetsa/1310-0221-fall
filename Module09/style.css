@@ -1,5 +1,5 @@
 * {box-sizing: border-box;}
-heade, nav, main, footer {display: block;}
+header, nav, main, footer {display: block;}
 body {color:#221811;
     background-image:url(background.gif);
     font-family: Arial,Verdana, sans-serif;}
