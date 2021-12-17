@@ -1,0 +1,74 @@
+* {box-sizing: border-box;}
+header, nav, main, footer {display: block;}
+body {color:#221811;
+    background-image:url(background.gif);
+    font-family: Arial,Verdana, sans-serif;}
+#wrapper {width: 80%;
+        background-color:#231814;
+        margin-left: auto; 
+        margin-right: auto; 
+        min-width:900px;
+        max-width: 1280px;
+        box-shadow: 5px 5px 5px #828282;}
+header {background-color: #d2b48c;
+        height: 150px;
+        background-image: url(javajamlogo.jpg);
+        background-repeat: no-repeat;}
+h1 {padding-top: 45px; 
+    padding-left: 220px;
+    font-size: 3em;} 
+h4 {background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+text-transform: uppercase;
+border-bottom: 0;}
+nav {text-align: center; 
+    font-weight: bold; 
+    font-size: 1.5em;
+    padding-top: 10px;
+float:left; 
+width: 200px;}
+main {padding-left: 0em;
+      padding-right: 0em;
+      margin-left: 200px;
+      padding-top: 0em;
+    padding-bottom: 2em;
+    background-color: #FEF6C2;
+    display: block;}
+footer {background-color: #d2b48c;
+        font-size: small(.60em);
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 10px;
+        border-top: 2px solid #221811;}
+nav a { text-decoration: none; }
+.details {padding-right: 20%;
+          padding-left: 20%;
+        overflow: auto;}
+img {padding-left: 10px;
+    padding-right: 10px;}
+#heroroad {background-image: url(heroroad.jpg); background-size: 100% 100%; height: 250px;}
+#heromugs {background-image: url(heromugs.jpg); background-size: 100% 100%; height: 250px;}
+#heroguitar {background-image: url(heroguitar.jpg); background-size: 100% 100%; height: 250px;}
+main h2, main h3, main h4, main p, main div, main ul, main dl {padding-left:3em;padding-right: 2em;}
+nav a:link { color:#fef6c2; }
+nav a:visited { color:#d2b48c; }
+nav a:hover { color:#cc9933;}
+nav ul {list-style-type: none;
+    padding-left: 0em;}
+.floatleft {float: left; padding-right: 20px;padding-bottom: 20px;}
+table {width: 90%;margin:auto;
+border-spacing: 0;
+background-color: #fef6c2;}
+th, td {padding: 10px;}
+tr:nth-of-type(odd) {background-color: #d2b48c;}
+form {padding: 2em}
+label {float:left;
+    display:block;
+    text-align: right;
+    width:8em;
+    padding-right: 1em;}
+input, textarea { display:block;
+    margin-bottom: 1em;}
+#mySubmit {margin-left: 9.5em;}
