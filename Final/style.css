@@ -1,0 +1,136 @@
+* {box-sizing: border-box;}
+header, nav, main, footer {display: block;}
+body {color:#D4AF37;
+    background-image:url(headmaster_office.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', serif;}
+#wrapper {width: 80%;
+        background-color:#590000;
+        margin-left: auto; 
+        margin-right: auto; 
+        min-width:900px;
+        max-width: 1280px;
+        box-shadow: 5px 5px 5px #101010;}
+header {background-image: url(logo.jpg);
+        background-size: contain;
+        height: 200px;
+        background-color: #590000;
+        background-repeat: no-repeat;
+        text-align: center;}
+h1 {padding-top: 5%; 
+    padding-left: 220px;
+    font-size: 5em;} 
+h4 {background-color: #590000;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+text-transform: uppercase;
+border-bottom: 0;}
+nav {text-align: center; 
+    font-weight: bold; 
+    font-size: 1.5em;
+    padding-top: 10px;
+float:left; 
+width: 200px;}
+main {padding-left: 0em;
+      padding-right: 0em;
+      margin-left: 200px;  
+    padding-top: 0em;
+    padding-bottom: 2em;
+    background-color: #585858 ;
+    display: block;}
+footer {background-image: url(stars.jpg);
+        background-size: contain;
+        background-repeat: repeat-x;
+        font-size: small(.60em);
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 10px;
+        border-top: 2px solid #221811;}
+nav a { text-decoration: none; }
+.details {padding-right: 20%;
+          padding-left: 20%;
+        overflow: auto;}
+img { float: right;
+    border-radius: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0em;
+    padding-bottom: 20px;
+    width: auto;
+  }
+iframe {float:center;
+    padding: 20px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+#howartscastle {background-image: url(howarts_background.png); background-size: 100% 100%; height: 400px;}
+#founders {background-image: url(Founders.jpg); background-size: 100% 100%; height: 400px;}
+#houses {background-image: url(hogwarts.jpg); background-size: 100% 100%; height: 400px;}
+#sortinghat {background-image: url(harry-potter-sorting-hat.jpg); background-size: 100% 100%; height: 400px;}
+#hat {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+#click{text-align: center;}
+main h2, main h3, main h4, main p, main div, main ul, main dl {padding-left:3em;padding-right: 2em;}
+nav a:link { color:#fef6c2; }
+nav a:visited { color:#d2b48c; }
+nav a:hover { color:#cc9933;}
+nav ul {list-style-type: none;
+    padding-left: 0em;}
+.floatleft {float: left; padding-right: 20px;padding-bottom: 20px;}
+table {width: 90%;margin:auto;
+border-spacing: 0;
+background-color: #fef6c2;}
+th, td {padding: 10px;}
+tr:nth-of-type(odd) {background-color: #d2b48c;}
+form {padding: 2em}
+label {float:left;
+    display:block;
+    text-align: right;
+    width:8em;
+    padding-right: 1em;}
+input, textarea { display:block;
+    margin-bottom: 1em;}
+#mySubmit {margin-left: 9.5em;}
+#mobile {display: none;}
+#desktop {display: inline;}
+
+@media only screen and (max-width: 1024px){
+body {margin: 0;background-image: none;}
+#wrapper { width:auto; min-width: 0;margin: 0;
+padding: 0; box-shadow: none; }
+header {border-bottom: 5px solid #585858;}
+h1 {margin-top: 0em;margin-bottom: 1em; padding-top: 1em;
+padding-bottom: 1em; font-size: 3em}
+nav {float:none; width:auto; padding-top: 0;margin: 10px; font-size: 1.5em;}
+nav li {display: inline-block;}
+nav a {padding: 1em; width:8em; font-weight: bold; border-style:none;}
+nav ul {padding:0; margin:0;}
+#howartscastle, #founders, #houses,#sortinghat {padding:0; margin:0;}
+main {padding: 0;margin:0; font-size:90%;}
+}
+@media only screen and (max-width:768px){
+header { background-image:url(logomini.jpg);
+height: 128px;}  
+h1 {font-size:2.3em;
+text-align: center;
+padding-left:0;}
+nav{margin: 0;}
+nav a { display: block;
+    padding: 0.2em; 
+    width:auto;
+border-bottom:1px solid #585858;}
+nav li { display: block;}
+main {padding-top: 1px;}
+h2 {padding:0.5em 0 0 0.5em;
+margin-right: 0.5em;}
+.details {padding-left: 0;
+padding-right: 0;}
+#howartscastle, #founders, #houses,#sortinghat {background-image: none; height: auto;}
+.floatleft {padding-left: 0.5em;
+    padding-right: 0.5em;}
+}
